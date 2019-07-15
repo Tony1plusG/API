@@ -1,0 +1,112 @@
+#addPost{
+    position: absolute;
+    margin-left: 105px;
+    margin-top: 80px;
+    width: auto;
+    height: auto;
+}
+#one {
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 80px;
+    height: 90px;
+    width: 110px;
+    visibility: hidden;
+}
+#two {
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 80px;
+    height: 90px;
+    width: 220px;
+    visibility: hidden;
+}
+.id {
+    position: relative;
+    width: 100px;
+    height: 15px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+#title {
+    position: absolute;
+    width: 100px;
+    height: 15px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#body {
+    position: relative;
+    width: 100px;
+    height: 15px;
+    margin-top: 35px;
+    margin-left: 5px;
+}
+
+#Save {
+    position: relative;
+    margin-top: 25px;
+    margin-left: 65px;
+}
+#three {
+    position: absolute;
+    margin-left: 710px;
+    margin-top: 80px;
+    height: 90px;
+    width: 220px;
+    visibility: hidden;
+}
+.menu ul {
+    display: none;
+    margin: 0;
+}
+.menu .list {
+    font-weight: bold;
+    cursor: pointer;
+}
+.menu .list:before {
+    content: '▶';
+    padding-right: 6px;
+    color: green;
+}
+.menu.open ul {
+    display: block;
+}
+.menu.open .list:before {
+    content: '▼';
+}
+#Edit {
+    margin-top: 55px;
+    margin-left: 100px;
+}
+#Delete {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 55px;
+}
+#four {
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 80px;
+    visibility: hidden;
+    width: 110px;
+    height: 90px;
+}
+#reTitle {
+    position: absolute;
+    width: 100px;
+    height: 15px;
+    
+}
+#reBody {
+    position: absolute;
+    width: 100px;
+    height: 15px;
+    margin-top: 25px;
+}
+#Put {
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 70px;
+}

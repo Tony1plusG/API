@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta http-equiv="Content-Type" content="text/html charset=UTF-8">
+    <title>Che palish`? -_-</title>
+    <script src="https://cdn.polyfill.io/v1/polyfill.js?features=Element.prototype.closest"></script>
+    <script src="project0.js"></script>
+</head>
+<body>
+    <button id ="addPost" >add Post</button>
+
+    <div class="firstSheet">
+        <dialog id="one" open>
+            <input type="text" id="title" name="title"/>
+            <input type="text" id="body" name="body"/>
+            <button id="Save">Save</button>
+        </dialog>
+    </div>
+
+    <div class="secondSheet">
+        <dialog id="two" open>
+            <div id="posts-menu" class="menu">
+                <span class="list" id="list">Posts</span>
+                <ul id="li-list"></ul>
+            </div>
+        </dialog>
+    </div>
+
+    <div class="thirdSheet">
+        <dialog id="three" open>
+            <div class="EditDeleteSheet" id="EditDeleteSheet"></div>
+            <button id="Edit">Edit</button>
+            <button id="Delete">Delete</button>
+        </dialog>
+    </div>
+
+    <div class="forthSheet">
+        <dialog id="four" open>
+            <input type="text" id="reTitle" name="reTitle"/>
+            <input type="text" id="reBody" name="reBody"/>
+            <button id="Put">Put</button>
+        </dialog>
+    </div>
+
+</body>
+</html>
